@@ -5,6 +5,8 @@ on:
   push:
     branches: [ main ]
 # 執行的工作
+permissions:
+  contents: write
 jobs:
   # 工作名稱
   deploy:
